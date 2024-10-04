@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html ,body{
+            height: 100%;
+            width: 100%;           
+}
+
+body{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    height: 500px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#container img{
+    height: 90%;
+    width : 100%;
+    object-fit: cover;
+    /* object-position: center; */
+}
+
+#container i {
+    color: #FD1D1D;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+#container love{
+    font-size: 110px;
+    color: #FD1D1D;
+}
+
+#container button{
+    background-color: rgb(25, 172, 103);
+    color: #fff;
+    font-weight: 700;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* #bottom {
+    height: 200px;
+    width: 100%;
+    background-color: #fff;
+} */
